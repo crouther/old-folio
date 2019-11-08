@@ -1,0 +1,97 @@
+/** Splash Navigation ::
+* This cluster of styling properties host 
+* the splash screen's UX **/
+
+#theme{
+	z-index: 999; 
+	background-color: tomato; 
+	color: black; 
+	text-align: center; 
+	position: absolute; 
+	top: 4%; 
+	margin-right: auto;
+	margin-left: auto;
+	width: auto; 
+	height: auto;
+	font-size: 1.5em;
+	padding: 2%;
+}
+
+.nav404{
+	position: absolute;
+	width: 25%;
+	height: 50%;
+	
+	left: 50%; 
+	top: 50%;
+
+	margin-left: -12.5%;
+	margin-top: -25%;
+
+	z-index: 500;
+}
+
+.navigation{
+	position: absolute;
+	
+	left: 50%; 
+	top: 50%;
+
+	margin-left: -512px;
+	margin-top: -384px;
+
+	z-index: 500;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.box{
+	width: 50%;
+	height: 50%;
+	z-index: 900;
+	opacity: .5;
+	position: absolute;
+}
+
+.aboutHire{
+	top: 0;
+	left: 0;
+}
+
+.research{
+	top: 0;
+	right: 0;
+}
+
+
+.projects{
+	bottom: 0;
+	left: 0;
+}
+
+
+.arts{
+	bottom: 0;
+	right: 0;
+}
+
+.diamond{
+	position: absolute;
+    z-index: 999;
+
+	top: 50%;
+	left: 50%;
+
+	margin-left: -125px;
+	margin-top: -125px;
+
+	height: 250px;
+	width: 250px;
+
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	ms-transform: rotate(45deg); /* IE 9 */
+    transform: rotate(45deg);
+}

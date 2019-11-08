@@ -1,0 +1,100 @@
+.content{
+	width: 100%;
+
+	margin: 0 auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+	background-color: #fff;
+}
+
+/*Specific to Hardawre Page*/
+.caption{
+	position: absolute;
+	margin-left: 7%;
+	color: #ffa500;
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.subCaption{
+	position: absolute;
+	margin-left: 7%;
+	font-size: 1.7em;
+	color: #fff;
+	top: 32vw;
+}
+
+.container{
+	display: inline-block;
+	float: center;
+
+	width: 100%;
+	height: auto;
+}
+
+.tri-box-ridgid{
+	width: 32%;
+	height: auto;
+
+	padding-left: 1%;
+	margin: 0;
+	
+	float: left;
+}
+
+.tri-box{
+	width: 32%;
+	height: auto;
+
+	padding-left: 1%;
+	margin: 0;
+	
+	float: left;
+}
+
+.tri-box img{
+	padding: 5%; 
+	width: 90%; 
+	height: auto;
+	border-radius: 5%;
+}
+
+@media (orientation: portrait) {
+	.tri-box{
+		width: 100%;
+	}
+
+	.tri-box img{
+		width: 80%;
+		padding: 10%;
+		border-radius: 0;
+	}
+
+	.tri-box h2{
+		width: 80%;
+		padding-left: 3%;
+		font-size: 2em;
+	}
+
+	.tri-box ul{
+		width: 80%;
+		padding-left: 10%; 
+	}
+}
+
+.subTitle{font-size: 1.3em;}
+
+.specs{
+	list-style-type: square;
+	float: center;
+	font-size: 1em;
+}
+
+.nopad{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 7%;
+	margin-top: 1%;
+}
